@@ -1,0 +1,16 @@
+[manifest]
+id = "infinite_charge"
+version = "1.0.0"
+display_name = "Infinite Charge"
+description = "Diddy's Chimpy charge will not stop until you release B"
+short_description = "Diddy's Chimpy charge will not stop until you release B"
+authors = [ "Umed" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.2"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "infinite_charge"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
