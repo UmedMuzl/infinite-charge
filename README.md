@@ -42,7 +42,7 @@ PowerShell example:
 The produced mod file is named `infinite_charge.nrm`.
 
 ## Project Layout
-- `src/tag_anywhere.c`: Main gameplay patch logic.
+- `src/main.c`: Main gameplay patch logic.
 - `mod.toml`: Mod metadata, target game id, and packaging inputs.
 - `dk64_decomp/`: Decompiled DK64 source and headers used by the build.
 - `Dk64Syms/`: Symbol files used by RecompModTool.
